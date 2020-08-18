@@ -1,0 +1,24 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+<rect width="16" height="16" rx="3" fill="#A12C23"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="0.5" y="0.5" width="15" height="15" rx="2.5" stroke="#D04F45"/>
+<circle cx="2" cy="10" r="1" fill="#D04F45"/>
+<circle cx="2" cy="2" r="1" fill="#D04F45"/>
+<circle cx="6" cy="10" r="1" fill="#D04F45"/>
+<circle cx="6" cy="2" r="1" fill="#D04F45"/>
+<circle cx="14" cy="10" r="1" fill="#D04F45"/>
+<circle cx="14" cy="2" r="1" fill="#D04F45"/>
+<circle cx="10" cy="10" r="1" fill="#D04F45"/>
+<circle cx="10" cy="2" r="1" fill="#D04F45"/>
+<circle cx="14" cy="14" r="1" fill="#D04F45"/>
+<circle cx="14" cy="6" r="1" fill="#D04F45"/>
+<circle cx="10" cy="14" r="1" fill="#D04F45"/>
+<circle cx="10" cy="6" r="1" fill="#D04F45"/>
+<circle cx="6" cy="14" r="1" fill="#D04F45"/>
+<circle cx="6" cy="6" r="1" fill="#D04F45"/>
+<circle cx="2" cy="14" r="1" fill="#D04F45"/>
+<circle cx="2" cy="6" r="1" fill="#D04F45"/>
+</g>
+</svg>

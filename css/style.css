@@ -1,0 +1,4 @@
+.hero--gradient-blue {
+    background: linear-gradient(180deg,#16bbff 0,#2396f5);
+    color: #fff;
+}
