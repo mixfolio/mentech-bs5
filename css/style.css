@@ -1,4 +1,83 @@
-.hero--gradient-blue {
-    background: linear-gradient(180deg,#16bbff 0,#2396f5);
+.hero-gradient {
+    background: #212121;
+    /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%); */
+    overflow: hidden;
     color: #fff;
 }
+
+.send-email-btn {
+    border: 1px solid #D04F45;
+}
+.send-email-btn:hover {
+    border: 1px solid #D04F45;
+    background: #D04F45;
+}
+
+.hero {
+position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #ffffff;
+  background: #000 url(../img/robo-hand.jpg) no-repeat center center ;
+}
+
+.hero-block {
+    position: relative;
+    z-index: 5;
+}
+
+.element {
+    white-space: pre;
+    min-height: 40px;
+}
+.particles {
+    /* background-color: green; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+}
+
+
+.project-card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: #2d2d2d;
+    width: 260px;
+    height: 260px;
+
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+.popup-checkbox-label {
+    font-size: 14px;
+}
+
+.popup-checkbox-label a {
+    color: #D04F45;
+}
+.popup-checkbox {
+    margin-right: 12px;
+}
+
+
+
+/* .project-card-body {
+    border: 1px solid #D04F45;
+    background-color: #2d2d2d;
+    border-radius: 16px;
+    
+} */
