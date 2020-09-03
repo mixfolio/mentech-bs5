@@ -76,7 +76,13 @@
       <div class="hero-block">
         <img class="" src="img/robot-red.svg" alt="Robot Avatar" height="128">
         <h2 class="h2" style="color: #D04F45">-&nbsp;MAN&nbsp;+TECH&nbsp;-</h2>
-        <p class="h4 element"></p>
+        <div id="typed-strings">
+          <p>AR/VR</p>
+          <p>Software Development</p>
+          <p>Machine Learning</p>
+        </div>
+        <span class="h4 font-weight-normal" id="typed"></span>
+        <!-- <p class="h4 element"></p> -->
       </div>
     </section>
 
@@ -531,6 +537,13 @@
 </div>
 
 
+<!-- <div id="typed-strings">
+  <p>Present <strong>- MAN +TECH -</strong>site</p>
+  <p>Copyright <em>2020</em> year</p>
+</div>
+<span id="typed"></span> -->
+
+
 </body>
 
 <!-- MDB -->
@@ -543,13 +556,24 @@
 <!-- TypedJS -->
 <!-- <script src="libs/typed-js/typed.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-<script>
+<!-- <script>
   var typed = new Typed('.element', {
-  strings: ["Web Design", "Web Development", "3D Print"],
+  strings: ["AR/VR", "Software Development", "Machine Learning"],
   typeSpeed: 40,
   backSpeed: 60,
   loop: true
 });
+</script> -->
+
+
+
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 40,
+    backSpeed: 60,
+    loop: true
+  });
 </script>
 
 <!-- Custom scripts -->
