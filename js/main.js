@@ -1,9 +1,9 @@
 const particlesSettings = {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 45,
       "density": {
-        "enable": false,
+        "enable": true,
         "value_area": 800
       }
     },
@@ -13,11 +13,11 @@ const particlesSettings = {
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 0,
+        "width": 1,
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 10
       },
       "image": {
         "src": "img/github.svg",
@@ -25,22 +25,22 @@ const particlesSettings = {
         "height": 100
       }
     },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
+    // "opacity": {
+    //   "value": 0.5,
+    //   "random": false,
+    //   "anim": {
+    //     "enable": false,
+    //     "speed": 1,
+    //     "opacity_min": 0.1,
+    //     "sync": false
+    //   }
+    // },
     "size": {
       "value": 5,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 40,
+        "speed": 10,
         "size_min": 0.1,
         "sync": false
       }
