@@ -116,3 +116,14 @@ const particlesSettings = {
 }
 
 particlesJS('particles', particlesSettings);
+
+
+
+const navLinks = document.querySelectorAll('.nav-link');
+const menu = document.getElementById('navbarMenu');
+
+for(let navItem of navLinks) {
+  navItem.addEventListener('click', function(){
+    menu.classList.remove('show');
+  });
+}
